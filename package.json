@@ -16,6 +16,10 @@
   ],
   "license": "MIT",
   "author": "Anthony Young <ayoung93@gmail.com>",
+  "homepage": "https://react-travel-passport.vercel.app",
+  "bugs": {
+    "url": "https://github.com/ayoungh/react-travel-passport/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ayoungh/react-travel-passport"

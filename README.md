@@ -4,6 +4,8 @@ A configurable, animated **passport book** component for React. Show the places
 you (or your users) have been — with country covers, ink entry & exit stamps,
 and full-page visa stickers, all in a 3D page-flipping booklet.
 
+**[Live demo → react-travel-passport.vercel.app](https://react-travel-passport.vercel.app/)**
+
 - 🛂 **25+ country cover presets** (US, UK, Japan, EU members, Brazil, India, …) plus a neutral "Citizen of the World" default
 - 🖋 **Five stamp shapes** — round, oval, rectangular, arrow, and dater — with textured ink, deterministic scatter, and hover glow
 - 🏷 **Visa stickers** with foil seals, machine-readable zones, and a holographic sheen
@@ -150,6 +152,7 @@ pnpm install
 pnpm dev        # demo playground at localhost:5173
 pnpm typecheck
 pnpm build      # emits dist/ (esm + cjs + d.ts + styles.css)
+pnpm demo:build # builds the demo site (deployed at react-travel-passport.vercel.app)
 ```
 
 ## Roadmap
