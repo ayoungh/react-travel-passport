@@ -41,6 +41,7 @@
   "scripts": {
     "build": "tsup && cp src/styles.css dist/styles.css",
     "dev": "vite",
+    "demo:build": "vite build",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run typecheck && pnpm run build"
   },
