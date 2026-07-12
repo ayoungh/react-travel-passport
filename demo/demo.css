@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f2efe6 0%, #e7e2d3 100%);
+  color: #20241f;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.demo {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.demo-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.demo-header h1 {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+}
+
+.demo-header p {
+  margin: 0 auto 20px;
+  max-width: 460px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4a5350;
+}
+
+.demo-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #4a5350;
+}
+
+.demo-picker select {
+  font: inherit;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(23, 26, 25, 0.2);
+  background: #fff;
+  max-width: 300px;
+}
+
+.demo-stage {
+  min-height: 540px;
+}
+
+.demo-footer {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.demo-footer code {
+  font-size: 13px;
+  background: rgba(23, 26, 25, 0.07);
+  border: 1px solid rgba(23, 26, 25, 0.12);
+  border-radius: 8px;
+  padding: 8px 14px;
+}
